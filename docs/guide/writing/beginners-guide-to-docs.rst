@@ -352,3 +352,96 @@ More information about these can be found in the :ref:`sidebar on markup <markup
 	-------
 
 	The project is licensed under the BSD license.
+
+
+
+
+
+
+
+
+
+============
+Starting off
+============
+
+So, you want to write the docs for your project?
+
+    *Where on earth do I start?*
+
+Well, you've come to the write [sic] place.
+
+The goal here is to explain how to write docs,
+how to get the time to write docs,
+and what you should be striving for with those docs.
+A lot of projects are different, and a lot are the same.
+We will be covering the tactics for a few different groups.
+
+Open source developers
+----------------------
+
+You have some awesome open source code, but nobody knows how to use it.
+The chance of someone discovering and using your awesome code goes up
+greatly with good documentation.
+
+Start with the :doc:`writing/beginners-guide-to-docs`,
+which provides practical advice on getting started.
+
+
+Developers at a company
+-----------------------
+
+You need help justifying writing documentation for your project.
+It seems the timelines you're given hardly allow any time to write tests,
+and docs always get put off until the end.
+Well, here are some ways that you can show value to your boss,
+and hopefully get the time to write the docs.
+
+Get started with :doc:`writing/mindshare`,
+which should give you a blueprint for how you can implement a documentation
+solution in your company.
+
+Enterprise users
+----------------
+
+You are a SAAS or Services company and you have developers as your target
+audience.
+If you don't have great documentation,
+your competitors will leave you in the dust.
+It will also jack up your support costs,
+because customers can't help themselves.
+
+This page of :ref:`interesting-approaches` is a good starting point to see
+some documentation that is well done.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Starting on a new piece of documentation
+========================================
+
+So you’ve been tasked with writing a brand-new piece of documentation. Where should you begin?
+
+A solid first step would be to talk to the experts on the product that you will be documenting (such as the developers, product managers, or project managers) to learn about the product and its expected target audience. Consider questions such as:
+
+* What does the product do? What does it enable users to achieve?
+* Is there a particular type of user or business role that this product caters to? If so, what does this user base care about?
+
+Use this knowledge to guide your decisions regarding the type of information that you should focus on in the documentation. These conversations will provide some pointers about the workflows that must be covered, and the product features or technical concepts that you will need to explain. You might also start getting ideas about how to organize and present the information.
+
+For example, if the product is something that has to be installed in order to be used, and you were writing for a system administrator audience, you would probably need to consider a wider variety of installation scenarios or more complex scenarios versus if you were writing for a less technical audience.
+
+As another example, if the product is a GUI application that offers specific ways for users to accomplish each task, you would probably want to write a user guide that walks users through those workflows step-by-step. However, if the product is something like a software development kit with a number of APIs that can be implemented in a multitude of ways, you might want to write a reference guide that describes what each API does and lists them alphabetically so that users can easily locate the information they need.
+
+Understanding the product and the expected user base will guide your decisions on *what* to write about and *how* to write about it.
+
