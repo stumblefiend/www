@@ -62,7 +62,7 @@ documentation serves the same purpose.
 		| I made something of value!
 		| What if it breaks?!
 		| I am a real open source developer!
-		| Oh god, someone else is using my code..
+		| Oh god, someone else is using my code...
 
 	Writing good documentation will help alleviate some of these fears.
 	A lot of this fear comes from putting something into the world.
@@ -426,18 +426,17 @@ some documentation that is well done.
 
 
 
-
-	Starting on a new piece of documentation
+Starting on a new piece of documentation
 ========================================
 
-So you’ve been tasked with writing a brand-new piece of documentation. Where should you begin?
+Where should you start when writing a new documentation for code you didn't write?
 
-A solid first step would be to talk to the experts on the product that you will be documenting (such as the developers, product managers, or project managers) to learn about the product and its expected target audience. Consider questions such as:
+A solid first step is talking to the product experts (such as the developers, product managers, or project managers) to learn about the product and its expected target audience. Consider questions such as:
 
-* What does the product do? What does it enable users to achieve?
-* Is there a particular type of user or business role that this product caters to? If so, what does this user base care about?
+* What does the product do and what does it enable users to achieve?
+* What user or business role does this product cater to? What does this user base care about?
 
-Use this knowledge to guide your decisions regarding the type of information that you should focus on in the documentation. These conversations will provide some pointers about the workflows that must be covered, and the product features or technical concepts that you will need to explain. You might also start getting ideas about how to organize and present the information.
+Use this knowledge to guide your decisions regarding the type of information that you should focus on in the documentation. These conversations provide pointers about the workflows to cover and the product features or technical concepts to explain. You might also start getting ideas about how to organize and present the information.
 
 For example, if the product is something that has to be installed in order to be used, and you were writing for a system administrator audience, you would probably need to consider a wider variety of installation scenarios or more complex scenarios versus if you were writing for a less technical audience.
 
