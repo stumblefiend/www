@@ -1,4 +1,4 @@
-A beginner's guide to writing documentation
+ A beginner's guide to writing documentation
 ===========================================
 
 .. note:: This is a write up of a `Presentation <https://speakerdeck.com/ericholscher/writing-docs-a-beginners-guide-to-writing-documentation>`_ .
