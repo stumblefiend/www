@@ -97,28 +97,19 @@ You want your code to be better
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Documentation requires a distillation of thought that improves code design.
-Writing out your API and design decisions allows you to think about them in a more formalized way.
-A nice side effect is that it allows people to contribute code that follows your original intentions.
+Writing out API and design decisions allows you to formally think about them.
+It also allows people to contribute code that follows your original intentions.
 
 You want to be a better writer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Writing documentation is a different form of writing than most people have experience with.
-Technical writing is an art that doesn't come naturally.
-Writing documentation will start you down the road to being a better technical writer,
-which is a useful skill to have as a programmer.
+Technical writing is an art that doesn't come naturally. Writing documentation requires different writing skills than most people have.  
+Writing documentation allows you to be a better technical writer, a useful skill for programmers.
 
-Writing also becomes easier over time.
-If you don't write for many months,
-it is a lot harder to start writing again.
-Keeping your projects documented will keep you writing at a reasonable cadence.
+Writing becomes easier over time. Keep up your writing skill by documenting your projects.
 
 Starting simple is the best way to achieve actual results.
-I will present a well-paved path to walk down,
-and after you have the basic idea,
-you can expand your scope.
-The tools should be powerful and easy to use.
-This removes obstacles to actually putting words on the page.
+Writing tools should be powerful and easy to use to remove obstacles to putting words on the page.
 
 .. _markup_languages:
 
@@ -126,23 +117,17 @@ This removes obstacles to actually putting words on the page.
 
    The examples in this document are both valid `Markdown`_ and `reStructuredText`_.
    reStructuredText is a bit harder to use,
-   but is more powerful.
-   I recommend that you check them both out,
-   and decide which you want to use going forward.
+   but is more powerful. Check them both out.
 
 .. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 .. _Markdown: http://daringfireball.net/projects/markdown/
 
-Version controlled plain text
+Version-controlled plain text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As programmers we live in a world of plain text.
-Our documentation tooling should be no exception.
-We want tools that turn plain text into pretty HTML.
-We also have some of the best tooling available for tracking changes to files.
-Why would we forgo using those tools when writing documentation?
-This workflow is powerful, and familiar to developers.
-
+Programmers live in a world of plain text.
+Their documentation tooling and workflows should function similarly.
+Tools should turn plain text into pretty HTML and track changes to files.
 
 Basic example
 ~~~~~~~~~~~~~
@@ -155,22 +140,19 @@ Basic example
 	* Online documentation: http://docs.writethedocs.org/
 	* Conference: http://conf.writethedocs.org/
 
-This will render into a header,
-with a list underneath it.
+This will render a nice HTML header and a list.
 The URLs will be hyperlinked automatically.
-It's easy to write,
-still makes sense as plain text,
-and renders nicely into HTML.
+It's easy to write and
+still makes sense as plain text.
 
 README
 ~~~~~~
 
-Your first steps in documentation should go into your README.
-Code hosting services will render your README into HTML automatically if you provide the proper extension.
-It is also the first interaction that most users will have with your project.
-So having a solid README will serve your project well.
+Your project's README is often the first time users interact with your project.
+Code hosting services will automatically render your README into HTML if you provide the proper extension.
+Having a solid README will serve your project well.
 
-Some people even go as far as to `start your project with a README`_
+Some people even go as far as to `start your project with a README`_.
 
 .. _start your project with a README: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
@@ -183,9 +165,8 @@ Now we're getting down to the brass tacks.
 Making sure that you give your users all the information that they need,
 but not too much.
 
-First, you need to ask yourself who you're writing for.
-At first,
-you generally just need to appeal to two audiences:
+First, ask yourself who you're writing for.
+At first, you generally just need to appeal to two audiences:
 
 * Users
 * Developers
