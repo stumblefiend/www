@@ -38,19 +38,14 @@ Why write docs
 You will be using your code in 6 months
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Code that you wrote 6 months ago is often indistinguishable from code that someone else has written.
-You will look upon a file with a fond sense of remembrance.
-Then a sneaking feeling of foreboding,
-knowing that someone less experienced, less wise, had written it.
+Code that you wrote 6 months ago looks similar to code that someone else wrote.
 
-As you go through this selfless act of untangling things that were obvious or clever months ago,
-you will start to empathize with your users.
-If only I had written down why I had done this.
-Life would be so much simpler.
+As you untangle things that were once obvious months ago,
+you will start to empathize with your users who need good documentation.
+
 Documentation allows you to transfer the *why* behind code.
-Much in the same way code comments explain the *why*,
-and not the *how*,
-documentation serves the same purpose.
+Much like how code comments explain the *why*,
+and not the *how*.
 
 .. sidebar::  Sidebar on open source
 
@@ -61,11 +56,10 @@ documentation serves the same purpose.
 
 		| I made something of value!
 		| What if it breaks?!
-		| I am a real open source developer!
+		| I am a real open-source developer!
 		| Oh god, someone else is using my code...
 
-	Writing good documentation will help alleviate some of these fears.
-	A lot of this fear comes from putting something into the world.
+	Writing good documentation helps alleviate the fear that comes from putting something into the world.
 	My favorite quote about this is something along these lines:
 
 		| Fear is what happens when you're doing something important.
@@ -78,62 +72,33 @@ documentation serves the same purpose.
 You want people to use your code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You have written a piece of code,
-and released it into the world.
-You have done this because you think that others might find it useful.
-However,
-people need to understand why your code might be useful for them,
-before they decide to use it.
-Documentation tells people that this project is for them.
+Documentation helps people see why your code is useful for them. Common reasons they
+won't use your code include:
 
-	| If people don't know why your project exists,
-	| they won't use it.
-	| If people can't figure out how to install your code,
-	| they won't use it.
-	| If people can't figure out how to use your code,
-	| they won't use it.
+* They don't know why your project exists or how it relates to their needs.
+* They can't find how to install your code.
+* They can't see how to use your code.
 
-There are a small number of people who will source dive and use any code out there.
-That is a vanishingly small number of people,
-compared to people who will use your code when properly documented.
-If you really love your project,
-document it,
-and let other people use it.
-
+There are decreasingly few people who will source dive and use any code out there
+compared to the number of people who will use properly documented code.
+If you love your project, document it so others can use it.
 
 You want people to help out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open source is this magical thing right?
-You release code,
-and the code gnomes come and make it better for you.
+Open source is amazing in many ways,
+but potential contributors need guidance through documentation.
 
-Not quite.
-
-There are lots of ways that open source is amazing,
-but it doesn't exist outside the laws of physics.
-You have to put work in,
-to get work out.
-
-	| You only get contributions after you have put in a lot of work.
-	| You only get contributions after you have users.
-	| You only get contributions after you have documentation.
-
-Documentation also provides a platform for your first contributions.
-A lot of people have never contributed before,
-and documentation changes are a lot less scary than code changes.
-If you don't have documentation,
-you will miss out on a whole class of contributors.
+Also, documentation provides another way for people to contribute.
+For people who have never contributed, documentation changes are less scary than code changes.
+Without documentation, you'll miss out on a whole class of contributors and impede others.
 
 You want your code to be better
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It's really easy to have an idea in your head that sounds perfect,
-but the act of putting words to paper requires a distillation of thought that may not be so easy.
-
-Writing documentation improves the design of your code.
-Talking through your API and design decisions on paper allows you to think about them in a more formalized way.
-A nice side effect is that it allows people to contribute code that follows your original intentions as well.
+Documentation requires a distillation of thought that improves code design.
+Writing out your API and design decisions allows you to think about them in a more formalized way.
+A nice side effect is that it allows people to contribute code that follows your original intentions.
 
 You want to be a better writer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -365,54 +330,33 @@ More information about these can be found in the :ref:`sidebar on markup <markup
 Starting off
 ============
 
-So, you want to write the docs for your project?
+how do you write docs and how do you get the time to write docs?
+What should you be striving for with those docs?
+Here are tactics for a few different groups.
 
-    *Where on earth do I start?*
-
-Well, you've come to the write [sic] place.
-
-The goal here is to explain how to write docs,
-how to get the time to write docs,
-and what you should be striving for with those docs.
-A lot of projects are different, and a lot are the same.
-We will be covering the tactics for a few different groups.
-
-Open source developers
+Open-source developers
 ----------------------
 
-You have some awesome open source code, but nobody knows how to use it.
-The chance of someone discovering and using your awesome code goes up
-greatly with good documentation.
+Good documentation improves the chances of discovery and use of your awesome open-source code.
 
 Start with the :doc:`writing/beginners-guide-to-docs`,
 which provides practical advice on getting started.
 
-
 Developers at a company
 -----------------------
 
-You need help justifying writing documentation for your project.
-It seems the timelines you're given hardly allow any time to write tests,
-and docs always get put off until the end.
-Well, here are some ways that you can show value to your boss,
-and hopefully get the time to write the docs.
+Here are some ways to show value to your boss and justify writing documentation for your project despite tight deadlines:
 
 Get started with :doc:`writing/mindshare`,
-which should give you a blueprint for how you can implement a documentation
-solution in your company.
+for a blueprint for implementing a documentation solution at your company.
 
 Enterprise users
 ----------------
 
-You are a SAAS or Services company and you have developers as your target
-audience.
-If you don't have great documentation,
-your competitors will leave you in the dust.
-It will also jack up your support costs,
-because customers can't help themselves.
+For a SAAS or Services company with developers as your target
+audience, lack of great documentation will increase your support costs and give an advantage to competitors that have great documentation.
 
-This page of :ref:`interesting-approaches` is a good starting point to see
-some documentation that is well done.
+See :ref:`interesting-approaches` for examples of good documentation.
 
 
 
@@ -426,21 +370,21 @@ some documentation that is well done.
 
 
 
-Starting on a new piece of documentation
-========================================
+Starting new documentation for an unfamiliar product
+=====================================================
 
-Where should you start when writing a new documentation for code you didn't write?
+Where should you start when writing new documentation for an unfamiliar product?
 
-A solid first step is talking to the product experts (such as the developers, product managers, or project managers) to learn about the product and its expected target audience. Consider questions such as:
+A solid first step is talking to the product experts (developers, product managers, or project managers) to learn the product and its expected audience. Answers to questions such as the following can help you decide what details to focus on in the documentation:
 
 * What does the product do and what does it enable users to achieve?
-* What user or business role does this product cater to? What does this user base care about?
+* What user base or business role does this product cater to and what do those users care about?
 
-Use this knowledge to guide your decisions regarding the type of information that you should focus on in the documentation. These conversations provide pointers about the workflows to cover and the product features or technical concepts to explain. You might also start getting ideas about how to organize and present the information.
+Conversations with experts help highlight the workflows to cover and the product features or technical concepts to explain. You might also get ideas about organizing and presenting the details.  For example:
 
-For example, if the product is something that has to be installed in order to be used, and you were writing for a system administrator audience, you would probably need to consider a wider variety of installation scenarios or more complex scenarios versus if you were writing for a less technical audience.
+* For a product that first needs installation, a system administrator audience may benefit from seeing several installation scenarios or complex scenarios compared to a less technical audience.
+* A GUI application that offers specific ways for users to accomplish each task might need a step-by-step guide through those workflows. 
+* A product with many APIs might need an alphabetical listing and description of what each API does for quick reference. 
 
-As another example, if the product is a GUI application that offers specific ways for users to accomplish each task, you would probably want to write a user guide that walks users through those workflows step-by-step. However, if the product is something like a software development kit with a number of APIs that can be implemented in a multitude of ways, you might want to write a reference guide that describes what each API does and lists them alphabetically so that users can easily locate the information they need.
-
-Understanding the product and the expected user base will guide your decisions on *what* to write about and *how* to write about it.
+Overall, understanding the product and the expected user base helps define *what* to write about and *how* to write about it.
 
