@@ -1,34 +1,12 @@
-A beginner's guide to writing documentation
-===========================================
+A beginner's guide to writing documentation for open source
+============================================================
 
-.. note:: This is a write up of a `Presentation <https://speakerdeck.com/ericholscher/writing-docs-a-beginners-guide-to-writing-documentation>`_ .
-          Please provide feedback to `@ericholscher`_.
-          You can view the source on `GitHub`_.
+Professional writers know the mixed emotions of a blank page: 
+you're eager for a new beginning but despair at where to start.
 
-.. _@ericholscher: http://twitter.com/ericholscher
-.. _GitHub: https://github.com/writethedocs/www/blob/master/docs/guide/writing/beginners-guide-to-docs.rst
-
-..
-
-	| Camera pans from stage left.
-	| It shows a text editor, open to a blank page.
-	| A person hunched in front, head to desk.
-
-The scene above is well known to everyone who writes for a living;
-the mixed emotions of a blank page.
-Full of excitement, fresh with a new beginning.
-Yet also full of despair, where do you even start?
-
-I am here to stop this scene from playing out.
-
-This is a guide to documenting your first project.
-The first time is always the hardest,
-and I hope this guide will get you started down the righteous path.
-At the end,
-you should have a project that is ready for public release.
-
-Feel free to read this document straight through,
-or simply use it as a reference.
+Use this guide to document your first open source project for 
+public release. Read this document straight through or use it 
+as a reference. 
 
 .. _why:
 
@@ -38,10 +16,9 @@ Why write docs
 You will be using your code in 6 months
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Code that you wrote 6 months ago looks similar to code that someone else wrote.
-
-As you untangle things that were once obvious months ago,
-you will start to empathize with your users who need good documentation.
+Your code from 6 months ago looks similar to code that someone else wrote.
+Things that were once obvious are now unclear. You empathize with your 
+users who need good documentation.
 
 Documentation allows you to transfer the *why* behind code.
 Much like how code comments explain the *why*,
@@ -50,37 +27,23 @@ and not the *how*.
 .. sidebar::  Sidebar on open source
 
 	There is a magical feeling that happens when you release your code.
-	It comes in a variety of ways, but it always hits you the same.
 	*Someone is using my code?!*
 	A mix of terror and excitement.
 
-		| I made something of value!
-		| What if it breaks?!
-		| I am a real open-source developer!
-		| Oh god, someone else is using my code...
-
-	Writing good documentation helps alleviate the fear that comes from putting something into the world.
-	My favorite quote about this is something along these lines:
-
-		| Fear is what happens when you're doing something important.
-		| If you are doing work that isn't scary,
-		| it isn't improving you or the world.
-
-	Congrats on being afraid!
-	It means you're doing something important.
+	Good documentation helps alleviate the fear from putting something into the world. And remember, that fear occurs because you are doing something important to improve yourself or the world.
 
 You want people to use your code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation helps people see why your code is useful for them. Common reasons they
-won't use your code include:
+Documentation shows people why your code is useful to them. There are a few 
+common reasons people don't use your code:
 
 * They don't know why your project exists or how it relates to their needs.
 * They can't find how to install your code.
 * They can't see how to use your code.
 
-There are decreasingly few people who will source dive and use any code out there
-compared to the number of people who will use properly documented code.
+Few people will source dive and use any code out there, but most people
+people will use properly documented code.
 If you love your project, document it so others can use it.
 
 You want people to help out
@@ -91,7 +54,7 @@ but potential contributors need guidance through documentation.
 
 Also, documentation provides another way for people to contribute.
 For people who have never contributed, documentation changes are less scary than code changes.
-Without documentation, you'll miss out on a whole class of contributors and impede others.
+Without documentation, you impede or even lose contributors.
 
 You want your code to be better
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -103,24 +66,13 @@ It also allows people to contribute code that follows your original intentions.
 You want to be a better writer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Technical writing is an art that doesn't come naturally. Writing documentation requires different writing skills than most people have.  
-Writing documentation allows you to be a better technical writer, a useful skill for programmers.
+Technical writing is a useful skill for programmers, but it doesn't come naturally. 
+Writing documentation requires different writing skills than most people have and
+allows you to be a better technical writer.
 
 Writing becomes easier over time. Keep up your writing skill by documenting your projects.
 
 Starting simple is the best way to achieve actual results.
-Writing tools should be powerful and easy to use to remove obstacles to putting words on the page.
-
-.. _markup_languages:
-
-.. sidebar:: Sidebar on markup languages.
-
-   The examples in this document are both valid `Markdown`_ and `reStructuredText`_.
-   reStructuredText is a bit harder to use,
-   but is more powerful. Check them both out.
-
-.. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
-.. _Markdown: http://daringfireball.net/projects/markdown/
 
 Version-controlled plain text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -145,12 +97,24 @@ The URLs will be hyperlinked automatically.
 It's easy to write and
 still makes sense as plain text.
 
+Writing tools should be powerful and easy to use to remove obstacles to putting words on the page.
+
+.. _markup_languages:
+
+.. sidebar:: Sidebar on markup languages.
+
+   The examples in this document are both valid `Markdown`_ and `reStructuredText`_.
+   reStructuredText is a bit harder to use,
+   but is more powerful. Check them both out.
+
+.. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+.. _Markdown: http://daringfireball.net/projects/markdown/
+
 README
 ~~~~~~
 
-Your project's README is often the first time users interact with your project.
-Code hosting services will automatically render your README into HTML if you provide the proper extension.
-Having a solid README will serve your project well.
+Your project's README is often the first time users interact with your project. Having a solid README will serve your project well.
+Code hosting services automatically render your README into HTML if you provide the proper extension.
 
 Some people even go as far as to `start your project with a README`_.
 
@@ -161,19 +125,14 @@ Some people even go as far as to `start your project with a README`_.
 What to write
 -------------
 
-Now we're getting down to the brass tacks.
-Making sure that you give your users all the information that they need,
+Give your users the information that they need,
 but not too much.
 
-First, ask yourself who you're writing for.
-At first, you generally just need to appeal to two audiences:
+First, know who you're writing for.
+You generally write for two audiences:
 
-* Users
-* Developers
-
-Users are people who simply want to use your code,
-and don't care how it works.
-Developers are people who want to contribute back to your code.
+* Users - want to use your code and don't care how it works.
+* Developers - want to contribute to your code.
 
 What problem your project solves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -299,7 +258,14 @@ More information about these can be found in the :ref:`sidebar on markup <markup
 
 	The project is licensed under the BSD license.
 
+.. note:: This is a write up of a `Presentation <https://speakerdeck.com/ericholscher/writing-docs-a-beginners-guide-to-writing-documentation>`_ .
+          Please provide feedback to `@ericholscher`_.
+          You can view the source on `GitHub`_.
 
+.. _@ericholscher: http://twitter.com/ericholscher
+.. _GitHub: https://github.com/writethedocs/www/blob/master/docs/guide/writing/beginners-guide-to-docs.rst
+
+..
 
 
 
@@ -361,7 +327,7 @@ A solid first step is talking to the product experts (developers, product manage
 * What does the product do and what does it enable users to achieve?
 * What user base or business role does this product cater to and what do those users care about?
 
-Conversations with experts help highlight the workflows to cover and the product features or technical concepts to explain. You might also get ideas about organizing and presenting the details.  For example:
+Conversations with experts help highlight the workflows to cover and the product features or technical concepts to explain. You might also get ideas about organizing and presenting the details. For example:
 
 * For a product that first needs installation, a system administrator audience may benefit from seeing several installation scenarios or complex scenarios compared to a less technical audience.
 * A GUI application that offers specific ways for users to accomplish each task might need a step-by-step guide through those workflows. 
