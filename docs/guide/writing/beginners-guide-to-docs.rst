@@ -49,12 +49,9 @@ If you love your project, document it so others can use it.
 You want people to help out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open source is amazing in many ways,
-but potential contributors need guidance through documentation.
-
-Also, documentation provides another way for people to contribute.
-For people who have never contributed, documentation changes are less scary than code changes.
-Without documentation, you impede or even lose contributors.
+Potential contributors need guidance through documentation and documentation provides another way for people to contribute.
+Also, for people who have never contributed, documentation changes are less scary than code changes.
+Overall, without documentation, you impede or even lose contributors.
 
 You want your code to be better
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -72,7 +69,7 @@ allows you to be a better technical writer.
 
 Writing becomes easier over time. Keep up your writing skill by documenting your projects.
 
-Starting simple is the best way to achieve actual results.
+Starting simple is the best way to achieve results.
 
 Version-controlled plain text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -92,10 +89,8 @@ Basic example
 	* Online documentation: http://docs.writethedocs.org/
 	* Conference: http://conf.writethedocs.org/
 
-This will render a nice HTML header and a list.
-The URLs will be hyperlinked automatically.
-It's easy to write and
-still makes sense as plain text.
+This will render a nice HTML header and a list with automatically hyperlinked URLs.
+It's easy to write and still makes sense as plain text.
 
 Writing tools should be powerful and easy to use to remove obstacles to putting words on the page.
 
@@ -113,12 +108,12 @@ Writing tools should be powerful and easy to use to remove obstacles to putting 
 README
 ~~~~~~
 
-Your project's README is often the first time users interact with your project. Having a solid README will serve your project well.
+Your project's README is often the first time users interact with your project. Therefore, having a solid README is key.
 Code hosting services automatically render your README into HTML if you provide the proper extension.
 
-Some people even go as far as to `start your project with a README`_.
+Some people even `start a project with a README`_.
 
-.. _start your project with a README: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+.. _start a project with a README: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
 .. _write:
 
@@ -128,23 +123,22 @@ What to write
 Give your users the information that they need,
 but not too much.
 
-First, know who you're writing for.
-You generally write for two audiences:
+First, know which of these common audiences you're writing for:
 
 * Users - want to use your code and don't care how it works.
 * Developers - want to contribute to your code.
 
-What problem your project solves
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tell what problem your project solves
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A lot of people will come to your docs trying to figure out what exactly your project is. Someone will mention it, or they'll google a phrase randomly. You should explain what your project does and why it exists. Fabric_ does a great job of this.
+Many people will use your docs to learn what your project is. Perhaps they will hear about your project from others or will find it from a search engine. Regardless, you should clearly tell what your project does and why. Fabric_ does a great job of this.
 
 .. _Fabric: http://docs.fabfile.org/
 
 A small code example
 ~~~~~~~~~~~~~~~~~~~~
 
-Show a telling example of what your project would normally be used for. Requests_ does a great example of this.
+Show a common example use case for your project. Requests_ does a great job of this.
 
 .. _Requests: https://requests.kennethreitz.org/en/master/
 
