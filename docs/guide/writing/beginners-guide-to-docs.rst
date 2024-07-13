@@ -1,19 +1,19 @@
-A beginner's guide to writing documentation for open source
-============================================================
+A beginner's guide to writing open source documentation
+=========================================================
 
 Professional writers know the mixed emotions of a blank page: 
 you're eager for a new beginning but despair at where to start.
 
-Have no fear! Use this guide to document your first open source project for 
-public release. Read this document straight through or as a reference. 
+Have no fear! Use this guide to document your first open-source project for 
+public release. 
 
 .. _why:
 
 Why write docs
 --------------
 
-You will be using your code in 6 months
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You will use your code in 6 months
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Your code from 6 months ago looks like code that someone else wrote.
 Once obvious things are now unclear. You can now empathize with your 
@@ -52,15 +52,15 @@ Potential contributors need guidance through documentation and documentation pro
 Also, for people who have never contributed, documentation changes are less scary than code changes.
 Overall, without documentation, you impede or even lose contributors.
 
-You want your code to be better
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You want your code to improve
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Documentation requires a distillation of thought that improves code design.
 Writing out API and design decisions allows you to formally think about them.
 It also allows people to contribute code that follows your original intentions.
 
-You want to be a better writer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You want to write better
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Technical writing is a useful skill for programmers, but it doesn't come naturally. 
 Writing documentation requires different writing skills than most people have and
@@ -78,7 +78,7 @@ Their documentation tooling and workflows should function similarly.
 Tools should turn plain text into pretty HTML and track changes to files.
 
 Basic example
-~~~~~~~~~~~~~
+++++++++++++++
 
 ::
 
@@ -103,16 +103,6 @@ Writing tools should be powerful and easy to use to remove obstacles to putting 
 
 .. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 .. _Markdown: http://daringfireball.net/projects/markdown/
-
-README
-~~~~~~
-
-Your project's README is often the first time users interact with your project. Therefore, having a solid README is key.
-Code hosting services automatically render your README into HTML if you provide the proper extension.
-
-Some people even `start a project with a README`_.
-
-.. _start a project with a README: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
 .. _write:
 
@@ -204,10 +194,17 @@ see `how to maintain an open source project`_.
 README template
 ----------------
 
-A simple template for you to start with,
-for your ``README``.
-Name the file ``README.md`` if you want to use markdown,
-or ``README.rst`` if you want to use reStructuredText.
+Your project's README is often the first time users interact with your project. Therefore, having a solid README is key.
+Code hosting services automatically render your README into HTML if you provide the proper extension.
+
+Some people even `start a project with a README`_.
+
+.. _start a project with a README: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+
+Below is a simple ``README`` template to start with.
+Name the file ``README.md`` to use markdown,
+or ``README.rst`` to use reStructuredText.
+
 Find more details in the :ref:`sidebar on markup <markup_languages>`.
 
 ::
