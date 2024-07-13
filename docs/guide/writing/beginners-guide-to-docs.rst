@@ -4,9 +4,8 @@ A beginner's guide to writing documentation for open source
 Professional writers know the mixed emotions of a blank page: 
 you're eager for a new beginning but despair at where to start.
 
-Use this guide to document your first open source project for 
-public release. Read this document straight through or use it 
-as a reference. 
+Have no fear! Use this guide to document your first open source project for 
+public release. Read this document straight through or as a reference. 
 
 .. _why:
 
@@ -16,8 +15,8 @@ Why write docs
 You will be using your code in 6 months
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Your code from 6 months ago looks similar to code that someone else wrote.
-Things that were once obvious are now unclear. You empathize with your 
+Your code from 6 months ago looks like code that someone else wrote.
+Once obvious things are now unclear. You can now empathize with your 
 users who need good documentation.
 
 Documentation allows you to transfer the *why* behind code.
@@ -30,12 +29,12 @@ and not the *how*.
 	*Someone is using my code?!*
 	A mix of terror and excitement.
 
-	Good documentation helps alleviate the fear from putting something into the world. And remember, that fear occurs because you are doing something important to improve yourself or the world.
+	Good documentation helps alleviate the fear of putting something into the world. And remember, that fear means you are doing something important to improve yourself or the world.
 
 You want people to use your code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation shows people why your code is useful to them. There are a few 
+Documentation shows people why your code is useful. There are a few 
 common reasons people don't use your code:
 
 * They don't know why your project exists or how it relates to their needs.
@@ -180,7 +179,7 @@ People have expectations of how things should be done. Document these so that pe
 Installation instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once people figure out whether they want to use your code, they need to know how to install and run it. Your install instructions should be a couple of lines for the basic case. Link to a page with more information and caveats. `Read the Docs`_ does a good job with this.
+Once people decide whether to use your code, they need to know how to install and run it. Your install instructions should be a couple of lines for the basic case. Link to a page with more information and caveats. `Read the Docs`_ does a good job with this.
 
 .. _Read the Docs: http://read-the-docs.readthedocs.org/en/latest/install.html
 
@@ -188,38 +187,36 @@ Once people figure out whether they want to use your code, they need to know how
 Your project's license
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-BSD? MIT? GPL? A project's license might not matter to you, but the people who want to use your code will care a lot. Think about what you want to accomplish with your license and only pick one standard license.
+BSD? MIT? GPL? A project's license might not matter to you, but the people who want to use your code will care. Think about what you want to accomplish with your license and only pick one standard license.
 
 .. _template:
 
 Next steps
 ----------
 
-After you follow the above guide,
-we know your project will be successful!
-For further reading,
-check out this post on `how to maintain an open source project`_.
+After following this guide,
+we know your project is ready for success!
+But, if you'd like to learn more,
+see `how to maintain an open source project`_.
 
 .. _how to maintain an open source project: https://medium.com/p/aaa2a5437d3a
 
-Template
---------
+README template
+----------------
 
 A simple template for you to start with,
 for your ``README``.
 Name the file ``README.md`` if you want to use markdown,
 or ``README.rst`` if you want to use reStructuredText.
-More information about these can be found in the :ref:`sidebar on markup <markup_languages>`.
+Find more details in the :ref:`sidebar on markup <markup_languages>`.
 
 ::
 
 	$project
 	========
 
-	$project will solve your problem of where to start with documentation,
-	by providing a basic explanation of how to do it easily.
-
-	Look how easy it is to use:
+	$project solves the problem of where to start with documentation
+	by providing a basic explanation of how to do it easily:
 
 	    import project
 	    # Get your stuff done
@@ -247,8 +244,8 @@ More information about these can be found in the :ref:`sidebar on markup <markup
 	Support
 	-------
 
-	If you are having issues, please let us know.
-	We have a mailing list located at: project@google-groups.com
+	Let us know if you have issues.
+	See our mailing list at: project@google-groups.com
 
 	License
 	-------
