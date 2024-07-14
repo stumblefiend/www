@@ -1,5 +1,5 @@
-A beginner's guide to documenting an open-source project
-=========================================================
+How to document code
+======================
 
 There is a magical feeling that comes from releasing code.
 *Someone is using my code?!*
@@ -12,8 +12,8 @@ public release.
 
 .. _why:
 
-Why is documentation important for my project?
------------------------------------------------
+Why is it important to document code?
+---------------------------------------
 
 Understand your code in 6 months
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,7 +97,7 @@ Writing tools should be powerful and easy to use to remove obstacles to putting 
 What to include in project documentation
 -----------------------------------------
 
-Give your users the information that they need,
+Give users the information they need,
 but not too much.
 
 First, know which of these common audiences you're writing for:
@@ -249,15 +249,6 @@ Find more details in the :ref:`sidebar on markup <markup_languages>`.
 	-------
 
 	The project is licensed under the BSD license.
-
-.. note:: This is a write up of a `Presentation <https://speakerdeck.com/ericholscher/writing-docs-a-beginners-guide-to-writing-documentation>`_ .
-          Please provide feedback to `@ericholscher`_.
-          You can view the source on `GitHub`_.
-
-.. _@ericholscher: http://twitter.com/ericholscher
-.. _GitHub: https://github.com/writethedocs/www/blob/master/docs/guide/writing/beginners-guide-to-docs.rst
-
-..
 
 
 
