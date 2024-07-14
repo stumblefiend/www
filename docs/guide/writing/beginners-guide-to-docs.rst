@@ -1,80 +1,72 @@
-A beginner's guide to writing open source documentation
+A beginner's guide to documenting an open-source project
 =========================================================
 
+There is a magical feeling that comes from releasing code.
+*Someone is using my code?!*
+The feeling is a mix of terror and excitement.
 You're eager to tell the world about your new project but despair at where to start. Even professional writers 
 know the mixed emotions caused by a blank page.
 
-There is a magical feeling that happens when you release your code.
-*Someone is using my code?!*
-The feeling is a mix of terror and excitement.
-
-Good documentation helps alleviate the fear of putting something into the world. And remember, that fear means you are doing something important to improve yourself or the world.
-
-But, have no fear! Use this guide to document your first open-source project for 
+Good documentation helps alleviate that fear. So, have no fear! Use this guide to document your first open-source project for 
 public release. 
 
 .. _why:
 
 Why is documentation important for my project?
-----------------------------------------------
+-----------------------------------------------
 
-You will use your code in 6 months
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Understand your code in 6 months
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Your code from 6 months ago looks like code that someone else wrote.
 Things once obvious are now unclear and you now empathize with potential 
 users who need good documentation.
 
+Get people to use your code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Just like code comments explain the *why* and not the *how*, documentation states the *why* behind the code.
+Good documentation solves a few 
+common reasons people won't use your code:
 
-You want people to use your code
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Documentation shows people why your code is useful. There are a few 
-common reasons people don't use your code:
-
-* They don't know why your project exists or how it relates to their needs.
+* They don't know why your project exists or how it meets their needs.
 * They can't find how to install your code.
 * They can't see how to use your code.
 
-Few people will source dive and use any code out there, but most people
+Few people will source dive to use code, but most 
 people will use properly documented code.
-If you love your project, document it so others can use it.
+Therefore, if you love your project, document it so others can use it.
 
-You want people to help out
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Increase contributions to your code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Potential contributors need guidance through documentation and documentation provides another way for people to contribute.
-Also, for people who have never contributed, documentation changes are less scary than code changes.
+Potential contributors need help through documentation. Documentation also provides another way for people to contribute and, for people who have never contributed, documentation changes may be easier than code changes.
 Overall, without documentation, you impede or even lose contributors.
 
-You want your code to improve
+Improve your code
+~~~~~~~~~~~~~~~~~~
+
+The process of creating documentation requires focused thought that improves code design.
+Writing out API and design decisions allows you to formally think about them.
+Documentation also allows people to contribute code that follows your original intentions.
+
+Improve your technical writing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Documentation requires a distillation of thought that improves code design.
-Writing out API and design decisions allows you to formally think about them.
-It also allows people to contribute code that follows your original intentions.
+Technical writing is a useful skill for programmers, but it requires different writing skills than most people have naturally.
+Writing documentation makes you a better technical writer. Technical writing becomes easier over time so maintain your writing skill by documenting your projects.
 
-You want to write better
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Technical writing is a useful skill for programmers, but it doesn't come naturally. 
-Writing documentation requires different writing skills than most people have and
-allows you to be a better technical writer.
-
-Writing becomes easier over time. Keep up your writing skill by documenting your projects.
-
-Starting simple is the best way to achieve results.
+Start simple to achieve the best results.
 
 Version-controlled plain text
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Programmers live in a world of plain text.
 Their documentation tooling and workflows should function similarly.
 Tools should turn plain text into pretty HTML and track changes to files.
 
-Basic example
-++++++++++++++
+A basic markup example
++++++++++++++++++++++++
 
 ::
 
@@ -102,8 +94,8 @@ Writing tools should be powerful and easy to use to remove obstacles to putting 
 
 .. _write:
 
-What to write
--------------
+What to include in project documentation
+-----------------------------------------
 
 Give your users the information that they need,
 but not too much.
@@ -113,65 +105,78 @@ First, know which of these common audiences you're writing for:
 * Users - want to use your code and don't care how it works.
 * Developers - want to contribute to your code.
 
-Tell what problem your project solves
+Show what problem your project solves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Many people will use your docs to learn what your project is. 
+People use your docs to learn about your project. 
 Perhaps they will hear about your project from others or will find it from a search engine. 
-Regardless, clearly state what your project does and why. Fabric_ does a great job of this.
+Regardless, clearly state what your project does and why. 
+
+Fabric_ does a great job of this.
 
 .. _Fabric: http://docs.fabfile.org/
 
-A small code example
-~~~~~~~~~~~~~~~~~~~~
+Provide a small code example
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Show a common example use case for your project. Requests_ is a great example.
+Show a common example use case for your project. 
+
+Requests_ is a great example.
 
 .. _Requests: https://requests.kennethreitz.org/en/master/
 
-A link to your code & issue tracker
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Link to your code & issue tracker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-People sometimes like to browse the code. They might want to file bugs for issues they've found, 
-so make your code easy to contribute. The `Python Guide`_ does a good job of this.
+People sometimes browse the code. They might want to file bugs for issues they've found, 
+so make your code easy to contribute. 
+
+The `Python Guide`_ does a good job of this.
 
 .. _Python Guide: http://docs.python-guide.org/en/latest/index.html
 
-Frequently asked questions (FAQs)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create frequently asked questions (FAQs)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many people have the same problems. If certain issues happen often, fix your documentation or the code 
 to resolve the issues. However, there are always questions about your project, things that can't be changed, etc. 
-Document those and **keep them up to date**. FAQs get outdated fast, but they are a great resource when done well. Tastypie_ did a great job of this with their "Cookbook" concept.
+Document those in an FAQ and **keep them up to date**. 
+
+FAQs get outdated fast but are a great resource when done well. 
+
+Tastypie_ did a great job of this with their "Cookbook" concept.
 
 .. _Tastypie: http://django-tastypie.readthedocs.org/en/latest/cookbook.html
 
-How to get support
-~~~~~~~~~~~~~~~~~~
+Tell how to get support
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Whether it is a mailing list or IRC Channel, document how to get help and interact with the community. 
+Whether from a mailing list or IRC Channel, document how to get help and interact with the community. 
+
 Django_ does a great job at this.
 
 .. _Django: https://docs.djangoproject.com/en/1.8/faq/help
 
-Information for people who want to contribute
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Show how to contribute
+~~~~~~~~~~~~~~~~~~~~~~~
 
-People have expectations of how things should be done. Document these so that people write code in the norm of the project. 
+People have their own expectations of how to contribute. Document your contribution process so that contributions follow the standards for your project. 
+
 `Open Comparison`_ does a great job of this.
 
 .. _Open Comparison: https://packaginator.readthedocs.io/en/latest/contributing.html
 
-Installation instructions
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Provide installation instructions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once people decide whether to use your code, they need to know how to install and run it. Your install instructions should be a couple of lines for the basic case. Link to a page with more information and caveats. `Read the Docs`_ does a good job with this.
+Once people decide to use your code, they need to install and run it. Keep your install instructions to a couple of lines for the basic case. Link to a page with more information and any caveats. 
+
+`Read the Docs`_ does a good job with this.
 
 .. _Read the Docs: http://read-the-docs.readthedocs.org/en/latest/install.html
 
-
-Your project's license
-~~~~~~~~~~~~~~~~~~~~~~~
+State your project's license
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 BSD? MIT? GPL? A project's license might not matter to you, but the people who want to use your code will care. Think about what you want to accomplish with your license and only pick one standard license.
 
