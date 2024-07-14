@@ -1,5 +1,5 @@
-How to document code
-======================
+How to write code documentation
+================================
 
 There is a magical feeling that comes from releasing code.
 *Someone is using my code?!*
@@ -7,12 +7,12 @@ The feeling is a mix of terror and excitement.
 You're eager to tell the world about your new project but despair at where to start. Even professional writers 
 know the mixed emotions caused by a blank page.
 
-Good documentation helps alleviate that fear. So, have no fear! Use this guide to document your first open-source project for 
+Good code documentation helps relieve that fear. So, have no fear! Use this guide to document your first open-source project for 
 public release. 
 
 .. _why:
 
-Why is it important to document code?
+Why write code documentation?
 ---------------------------------------
 
 Understand your code in 6 months
@@ -25,7 +25,7 @@ users who need good documentation.
 Get people to use your code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Just like code comments explain the *why* and not the *how*, documentation states the *why* behind the code.
+Just like code comments explain the *why* and not the *how*, code documentation states the *why* behind the code.
 Good documentation solves a few 
 common reasons people won't use your code:
 
@@ -58,55 +58,20 @@ Writing documentation makes you a better technical writer. Technical writing bec
 
 Start simple to achieve the best results.
 
-Version-controlled plain text
-------------------------------
-
-Programmers live in a world of plain text.
-Their documentation tooling and workflows should function similarly.
-Tools should turn plain text into pretty HTML and track changes to files.
-
-A basic markup example
-+++++++++++++++++++++++
-
-::
-
-	Resources
-	---------
-
-	* Online documentation: http://docs.writethedocs.org/
-	* Conference: http://conf.writethedocs.org/
-
-This will render a nice HTML header and a list with automatically hyperlinked URLs.
-It's easy to write and still makes sense as plain text.
-
-Writing tools should be powerful and easy to use to remove obstacles to putting words on the page.
-
-.. _markup_languages:
-
-.. sidebar:: Sidebar on markup languages.
-
-   The examples in this document are both valid `Markdown`_ and `reStructuredText`_.
-   reStructuredText is a bit harder to use,
-   but is more powerful. Check them both out.
-
-.. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
-.. _Markdown: http://daringfireball.net/projects/markdown/
-
 .. _write:
 
-What to include in project documentation
------------------------------------------
+What to include in code documentation
+--------------------------------------
 
-Give users the information they need,
-but not too much.
+Give users the information they need, but not too much.
 
 First, know which of these common audiences you're writing for:
 
 * Users - want to use your code and don't care how it works.
 * Developers - want to contribute to your code.
 
-Show what problem your project solves
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Show what problem your code solves
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 People use your docs to learn about your project. 
 Perhaps they will hear about your project from others or will find it from a search engine. 
@@ -125,8 +90,8 @@ Requests_ is a great example.
 
 .. _Requests: https://requests.kennethreitz.org/en/master/
 
-Link to your code & issue tracker
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Link to your code and issue tracker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 People sometimes browse the code. They might want to file bugs for issues they've found, 
 so make your code easy to contribute. 
@@ -182,18 +147,51 @@ BSD? MIT? GPL? A project's license might not matter to you, but the people who w
 
 .. _template:
 
-Next steps
-----------
+Next steps for code documentation
+----------------------------------
 
 After following this guide,
-we know your project is ready for success!
+we know your code is ready for success!
 But, if you'd like to learn more,
 see `how to maintain an open source project`_.
 
 .. _how to maintain an open source project: https://medium.com/p/aaa2a5437d3a
 
+Tools for writing code documentation
+-------------------------------------
+
+Programmers live in a world of plain text.
+Their documentation tooling and workflows should function similarly while being powerful and easy to use.
+Writing tools should turn plain text into pretty HTML and track changes to files.
+
+A basic markup example
+~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+	Resources
+	---------
+
+	* Online documentation: http://docs.writethedocs.org/
+	* Conference: http://conf.writethedocs.org/
+
+This will render a nice HTML header and a list with automatically hyperlinked URLs.
+It's easy to write and still makes sense as plain text.
+
+.. _markup_languages:
+
+.. sidebar:: Sidebar on markup languages.
+
+   The examples in this document are both valid `Markdown`_ and `reStructuredText`_.
+   reStructuredText is a bit harder to use,
+   but is more powerful. Check them both out.
+
+.. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+.. _Markdown: http://daringfireball.net/projects/markdown/
+
+
 README template
-----------------
+~~~~~~~~~~~~~~~~
 
 Your project's README is often the first time users interact with your project. Therefore, having a solid README is key.
 Code hosting services automatically render your README into HTML if you provide the proper extension.
@@ -205,8 +203,6 @@ Some people even `start a project with a README`_.
 Below is a simple ``README`` template to start with.
 Name the file ``README.md`` to use markdown,
 or ``README.rst`` to use reStructuredText.
-
-Find more details in the :ref:`sidebar on markup <markup_languages>`.
 
 ::
 
