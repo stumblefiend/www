@@ -1,35 +1,31 @@
 A beginner's guide to writing open source documentation
 =========================================================
 
-Professional writers know the mixed emotions of a blank page: 
-you're eager for a new beginning but despair at where to start.
+You're eager to tell the world about your new project but despair at where to start. Even professional writers 
+know the mixed emotions caused by a blank page.
 
-Have no fear! Use this guide to document your first open-source project for 
+There is a magical feeling that happens when you release your code.
+*Someone is using my code?!*
+The feeling is a mix of terror and excitement.
+
+Good documentation helps alleviate the fear of putting something into the world. And remember, that fear means you are doing something important to improve yourself or the world.
+
+But, have no fear! Use this guide to document your first open-source project for 
 public release. 
 
 .. _why:
 
-Why write docs
---------------
+Why is documentation important for my project?
+----------------------------------------------
 
 You will use your code in 6 months
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Your code from 6 months ago looks like code that someone else wrote.
-Once obvious things are now unclear. You can now empathize with your 
+Things once obvious are now unclear and you now empathize with potential 
 users who need good documentation.
 
-Documentation allows you to transfer the *why* behind code.
-Much like how code comments explain the *why*,
-and not the *how*.
-
-.. sidebar::  Sidebar on open source
-
-	There is a magical feeling that happens when you release your code.
-	*Someone is using my code?!*
-	A mix of terror and excitement.
-
-	Good documentation helps alleviate the fear of putting something into the world. And remember, that fear means you are doing something important to improve yourself or the world.
+Just like code comments explain the *why* and not the *how*, documentation states the *why* behind the code.
 
 You want people to use your code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
